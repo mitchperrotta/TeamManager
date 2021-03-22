@@ -24,7 +24,7 @@ namespace TeamManager.Controllers
 
         public User UserInDb()
         {
-            return dbContext.Users.FirstOrDefault(u => u.UserId == HttpContext.Session.GetInt32("UserId"));
+            return dbContext.Users.Include(u => u.Teams).FirstOrDefault(u => u.UserId == HttpContext.Session.GetInt32("UserId"));
         }
 
         public IActionResult Index()
@@ -90,7 +90,9 @@ namespace TeamManager.Controllers
             {
                 return RedirectToAction("Logout");
             }
-            return View();
+
+            
+            return View(userInDb);
         }
 
         [HttpGet("new/team")]

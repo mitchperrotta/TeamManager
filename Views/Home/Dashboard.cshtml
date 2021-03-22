@@ -4,6 +4,20 @@
 
 <div class="d-flex flex-wrap justify-content-around">
     <h1>Your Teams</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{foreach (Team team in Model.Teams){
+                    <tr>
+                        <td>team.Name</td>
+                    </tr>
+                } }
+            </tbody>
+        </table>
 </div>
 <div class="d-flex flex-wrap justify-content-around">
     <div>
