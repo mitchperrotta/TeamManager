@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Team
+
+<form action="/login" method="post" class="col-5">
+    <h2 class="text-center">Login</h2>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Logo"></label>
+        <input asp-for="Logo" class="form-control">
+        <span class="text-danger" asp-validation-for="Logo"></span>
+    </div>
+    <input type="submit" value="Login" class="btn btn-success btn-outline-primary">
+</form>
