@@ -127,3 +127,4 @@ C:\Users\Corey\desktop\group_projects\teammanager\obj\Debug\netcoreapp3.1\TeamMa
 C:\Users\Corey\desktop\group_projects\teammanager\obj\Debug\netcoreapp3.1\TeamManager.csproj.CopyComplete
 C:\Users\Corey\desktop\group_projects\teammanager\obj\Debug\netcoreapp3.1\TeamManager.genruntimeconfig.cache
 C:\Users\mitch\Desktop\Coding_Dojo\C#\ORMs\projects\TeamManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\LeagueForm.cshtml.g.cs
+C:\Users\mitch\Desktop\Coding_Dojo\C#\ORMs\projects\TeamManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\TeamDash.cshtml.g.cs

@@ -90,8 +90,6 @@ namespace TeamManager.Controllers
             {
                 return RedirectToAction("Logout");
             }
-
-            
             return View(userInDb);
         }
 
@@ -103,7 +101,44 @@ namespace TeamManager.Controllers
             {
                 return RedirectToAction("logout");
             }
+            List<League> leagues = dbContext.Leagues.ToList();
+            ViewBag.AllLeagues = leagues;
+            ViewBag.User = userInDb;
             return View();
+        }
+
+        [HttpPost("create/team")]
+        public IActionResult CreateTeam(Team team)
+        {
+            User userInDb = UserInDb();
+            if(userInDb == null)
+            {
+                return RedirectToAction("Logout");
+            }
+            if(ModelState.IsValid)
+            {
+                if(dbContext.Teams.Any(u => u.Name == team.Name))
+                {
+                    ModelState.AddModelError("Name", "Team name is already taken");
+                    return View("Index");
+                }
+                dbContext.Teams.Add(team);
+                dbContext.SaveChanges();
+                return RedirectToAction("Dashboard");
+            }
+            return View("TeamForm");
+        }
+
+        [HttpGet("{teamId}")]
+        public IActionResult TeamDash(int teamId)
+        {
+            User userInDb = UserInDb();
+            if(userInDb == null)
+            {
+                return RedirectToAction("Logout");
+            }
+            Team team = dbContext.Teams.FirstOrDefault(t => t.TeamId == teamId);
+            return View(team);
         }
 
         [HttpGet("new/league")]
@@ -120,6 +155,11 @@ namespace TeamManager.Controllers
         [HttpPost("create/league")]
         public IActionResult CreateLeague(League league)
         {
+            User userInDb = UserInDb();
+            if(userInDb == null)
+            {
+                return RedirectToAction("Logout");
+            }
             if(ModelState.IsValid)
             {
                 dbContext.Leagues.Add(league);

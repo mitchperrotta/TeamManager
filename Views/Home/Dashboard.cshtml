@@ -13,7 +13,7 @@
             <tbody>
                 @{foreach (Team team in Model.Teams){
                     <tr>
-                        <td>team.Name</td>
+                        <td><a href="/@team.TeamId">@team.Name</a></td>
                     </tr>
                 } }
             </tbody>

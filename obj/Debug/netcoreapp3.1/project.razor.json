@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\TeamDash.cshtml",
+      "TargetPath": "Views\\Home\\TeamDash.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
