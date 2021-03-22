@@ -106,6 +106,29 @@ namespace TeamManager.Controllers
             return View();
         }
 
+        [HttpGet("new/league")]
+        public IActionResult LeagueForm()
+        {
+            User userInDb = UserInDb();
+            if(userInDb.Username != "adminlog")
+            {
+                return RedirectToAction("logout");
+            }
+            return View();
+        }
+
+        [HttpPost("create/league")]
+        public IActionResult CreateLeague(League league)
+        {
+            if(ModelState.IsValid)
+            {
+                dbContext.Leagues.Add(league);
+                dbContext.SaveChanges();
+                return RedirectToAction("Dashboard");
+            }
+            return View("LeagueForm");
+        }
+
         [HttpGet("logout")]
         public IActionResult Logout()
         {
