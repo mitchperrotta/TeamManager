@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\orms\\projects\\teammanager\\TeamManager.csproj": {}
+    "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\TeamManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\orms\\projects\\teammanager\\TeamManager.csproj": {
+    "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\TeamManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\orms\\projects\\teammanager\\TeamManager.csproj",
+        "projectUniqueName": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\TeamManager.csproj",
         "projectName": "TeamManager",
-        "projectPath": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\orms\\projects\\teammanager\\TeamManager.csproj",
+        "projectPath": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\TeamManager.csproj",
         "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\orms\\projects\\teammanager\\obj\\",
+        "outputPath": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",

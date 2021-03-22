@@ -9,7 +9,7 @@ using TeamManager.Contexts;
 namespace TeamManager.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20210317022359_initial")]
+    [Migration("20210322181641_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

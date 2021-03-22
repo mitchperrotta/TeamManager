@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vMHJSRltN+Hmv8hT917otGZGQ6Istqx9wDj5DZ+01OTu/VEwSwTpaXtkj8i3K1QpJXpf86ODcfZs+iBLKOVL9A==",
+  "dgSpecHash": "OHdhLgJ+bVy0Jy1asf2Vmkr6irWalNXTYHP/TbxDeMY2K5dtpygv9rq2JcQGEs/d52zJzonF6DNmT5kBa75OfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\orms\\projects\\teammanager\\TeamManager.csproj",
+  "projectFilePath": "C:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\TeamManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mitch\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mitch\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
