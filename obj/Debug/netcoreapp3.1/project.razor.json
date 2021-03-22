@@ -14390,62 +14390,6 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "TeamManager",
-  "Documents": [
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\TeamForm.cshtml",
-      "TargetPath": "Views\\Home\\TeamForm.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\_Login.cshtml",
-      "TargetPath": "Views\\Home\\_Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\Dashboard.cshtml",
-      "TargetPath": "Views\\Home\\Dashboard.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mitch\\Desktop\\Coding_Dojo\\C#\\ORMs\\projects\\TeamManager\\Views\\Home\\_Register.cshtml",
-      "TargetPath": "Views\\Home\\_Register.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.2"
 }
